@@ -1,0 +1,3 @@
+transformers
+silero_vad
+ffmpeg-python
