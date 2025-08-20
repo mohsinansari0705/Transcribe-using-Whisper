@@ -4,49 +4,16 @@
      - transcript_plain.json
      - transcript_timestamped.json
 """
-
-# from transformers import AutoModelForSpeechSeq2Seq, AutoProcessor, pipeline
 from transformers import WhisperForConditionalGeneration, WhisperProcessor, AutomaticSpeechRecognitionPipeline
+from silero_vad import get_speech_timestamps, load_silero_vad
 from config import MODEL_ID, DEVICE, OUTPUT_DIR, INPUT_DIR
+from datetime import datetime
 import numpy as np
 import ffmpeg
 import torch
 import json
+import uuid
 import os
-
-
-"""
-    Load Model, Processor, and Pipeline once
-"""
-torch_dtype = torch.float16 if torch.cuda.is_available() else torch.float32
-
-# Load STT model with specified configurations
-model = WhisperForConditionalGeneration.from_pretrained(
-    MODEL_ID, 
-    torch_dtype=torch_dtype,        # Use appropriate precision (float16 for GPU, float32 for CPU)
-    low_cpu_mem_usage=True,
-    use_safetensors=True
-)
-model.to(DEVICE)
-
-# Set the alignment_heads for word-level timestamps
-alignment_heads = [[5, 3], [5, 9], [8, 0], [8, 4], [8, 7], [8, 8], [9, 0], [9, 7], [9, 9], [10, 5]]
-model.generation_config.alignment_heads = alignment_heads
-
-# Load the processor for audio preprocessing
-processor = WhisperProcessor.from_pretrained(MODEL_ID)
-
-# Speech recognition pipeline
-pipe = AutomaticSpeechRecognitionPipeline(
-    model=model,
-    tokenizer=processor.tokenizer,
-    feature_extractor=processor.feature_extractor,
-    device=DEVICE,
-    # generate_kwargs={
-    #     "task": "transcribe",
-    #     "language": "en"
-    # }
-)
 
 
 def load_audio_any_format(audio_path, target_sr=16000):
@@ -66,9 +33,28 @@ def load_audio_any_format(audio_path, target_sr=16000):
         return audio, target_sr
     except Exception:
         raise RuntimeError(f"ffmpeg failed to load '{audio_path}'.")
+    
+
+def merge_vad_segments(segments, max_pause=0.5, sr=16000):
+    """Merge VAD segments with short pauses into longer chunks."""
+    if not segments:
+        return []
+    
+    merged = []
+    current = segments[0].copy()
+    for seg in segments[1:]:
+        pause = (seg['start'] - current['end']) / sr
+        if pause <= max_pause:
+            current['end'] = seg['end']
+        else:
+            merged.append(current)
+            current = seg.copy()
+
+    merged.append(current)
+    return merged
 
 
-def transcribe_audio(audio_path: str, audio_id: str):
+def transcribe_audio_with_vad(audio_path: str, audio_id: str):
     """
     Transcribe audio file into plain text and timestamped segments.
     Returns two dicts for saving as JSON.
@@ -76,35 +62,86 @@ def transcribe_audio(audio_path: str, audio_id: str):
 
     # Load audio
     audio, sr = load_audio_any_format(audio_path)
-    
-    result = pipe(audio, return_timestamps='segment')
+
+    speech_segments = get_speech_timestamps(torch.from_numpy(audio), load_silero_vad(), sampling_rate=sr)
+    merged_segments = merge_vad_segments(speech_segments, max_pause=0.5, sr=sr)
+
+    # Load STT model once with specified configurations
+    torch_dtype = torch.float16 if torch.cuda.is_available() else torch.float32
+
+    model = WhisperForConditionalGeneration.from_pretrained(
+        MODEL_ID, 
+        torch_dtype=torch_dtype,
+        low_cpu_mem_usage=True,
+        use_safetensors=True
+    )
+    model.to(DEVICE)
+
+    # Load the processor for audio preprocessing
+    processor = WhisperProcessor.from_pretrained(MODEL_ID)
+
+    # Speech recognition pipeline
+    pipe = AutomaticSpeechRecognitionPipeline(
+        model=model,
+        tokenizer=processor.tokenizer,
+        feature_extractor=processor.feature_extractor,
+        device=DEVICE,
+        generate_kwargs={
+            "task": "transcribe",
+            "language": "en"
+        }
+    )
+
+    segments = []
+    full_text = ""
+    for seg in merged_segments:
+        start_sample = seg['start']
+        end_sample = seg['end']
+        segment_audio = audio[start_sample:end_sample]
+
+        result = pipe(segment_audio, return_timestamps='segment')
+
+        seg_text = result['text']
+        full_text += seg_text + " "
+
+        segments.append({
+            "start": start_sample / sr,     # convert to seconds
+            "end": end_sample / sr,
+            "text": seg_text
+        })
 
     # Build Plain JSON
     plain_json = {
-        "audio_id": audio_id,
-        "transcript": result["text"]
+        "job_id": str(uuid.uuid4()),
+        "model": MODEL_ID,
+        "creation_time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "audio_file": audio_id,
+        "sample_rate": sr,
+        "device": DEVICE,
+        "duration": len(audio) / sr,
+        "transcript": full_text.strip(),
+        "word_count": len(full_text.strip().split())
     }
 
-    # Build Timestamped JSON
-    segments = []
-    if "chunks" in result:
-        # chunks contain start, end, text
-        for seg in result["chunks"]:
-            segments.append({
-                "start": float(seg["timestamp"][0]) if seg["timestamp"][0] is not None else None,
-                "end": float(seg["timestamp"][1]) if seg["timestamp"][1] is not None else None,
-                "text": seg["text"]
-            })
-    else:
-        segments.append({
-            "start": 0.0,
-            "end": None,
-            "text": result["text"]
-        })
-
+    # Build Timestamped JSON    
     timestamped_json = {
-        "audio_id": audio_id,
-        "segments": segments
+        "job_id": str(uuid.uuid4()),
+        "model": MODEL_ID,
+        "creation_time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "audio_file": audio_id,
+        "sample_rate": sr,
+        "device": DEVICE,
+        "duration": len(audio) / sr,
+        "segments": [
+            {
+                "index": idx,
+                "start": seg['start'],
+                "end": seg['end'],
+                "text": seg['text'],
+                "word_count": len(seg['text'].split())
+            }
+            for idx, seg in enumerate(segments)
+        ]
     }
 
     return plain_json, timestamped_json
@@ -117,12 +154,12 @@ def save_json(data, filepath):
 
 if __name__ == "__main__":
     # your input file
-    audio_file_name = 'sample.ogg'
+    audio_file_name = 'sample_me.mp4'
     audio_file = os.path.join(INPUT_DIR, audio_file_name)
 
-    plain, timestamped = transcribe_audio(audio_file, audio_file_name)
+    plain, timestamped = transcribe_audio_with_vad(audio_file, audio_file_name)
 
-    save_json(plain, os.path.join(OUTPUT_DIR, "transcribed_plain.json"))
-    save_json(timestamped, os.path.join(OUTPUT_DIR, "transcribed_timestamped.json"))
+    save_json(plain, os.path.join(OUTPUT_DIR, f"{audio_file_name}_transcribed_plain.json"))
+    save_json(timestamped, os.path.join(OUTPUT_DIR, f"{audio_file_name}_transcribed_timestamped.json"))
 
     print(f"✅ Transcription done. Files saved in {OUTPUT_DIR}")
