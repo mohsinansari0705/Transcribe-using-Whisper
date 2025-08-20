@@ -1,0 +1,2132 @@
+{
+  "job_id": "4ed6d70d-5bf7-436f-9245-9a7829fe0ec8",
+  "model": "Oriserve/Whisper-Hindi2Hinglish-Prime",
+  "creation_time": "2025-08-20 18:24:20",
+  "audio_file": "/content/drive/MyDrive/Colab Notebooks/transcribe_pipe/sample.m4a",
+  "sample_rate": 16000,
+  "device": "cuda",
+  "duration": 1344.2986875,
+  "segments": [
+    {
+      "index": 0,
+      "start": 1.026,
+      "end": 24.894,
+      "text": "Ab dekhie, ab agar main isi example mein baat karoon to isi example mein water jo ho jaega, solvent ho jaega, clear? To is tarah se hamne dekha ki jo solution hai usko banaane mein do chizen istemaal ho gai hai, solvent aur solvent. Right? Ab solvent ek se zyaada bhi ho sakta hai, ho sakta hai do ho, tin ho. For example, agar aap lemonade bana rahe ho, lemonade kiya hai sabne?",
+      "word_count": 73
+    },
+    {
+      "index": 1,
+      "start": 25.538,
+      "end": 33.662,
+      "text": "Yes or no? Lemonade diya hai ki nahin? Shikhar ji? To lemonade mein how do you, how do you make it? Kaise banaate ho aap usse?",
+      "word_count": 26
+    },
+    {
+      "index": 2,
+      "start": 34.21,
+      "end": 35.07,
+      "text": "Aap?",
+      "word_count": 1
+    },
+    {
+      "index": 3,
+      "start": 35.65,
+      "end": 53.086,
+      "text": "Water lete ho nahin which is which is a solvent. Phir usmen aap alag alag quantities apne ichchha se milaate ho. For example you add lemon, you add sugar, you add salt. To yah kya ho alag alag solute hue hain saare? To ham ek solution bana sakte hain jismen ek se zyaada solute bhi possible.",
+      "word_count": 56
+    },
+    {
+      "index": 4,
+      "start": 53.698,
+      "end": 69.214,
+      "text": "Thik, ab vo solution jismen keval ek hi solute aur ek hi solvent ho, use ham log kahte hain binary solution. Kya kahte hain? Binary solution. To note aa rahi hai ismen. Aur note karke likhie.",
+      "word_count": 36
+    },
+    {
+      "index": 5,
+      "start": 70.53,
+      "end": 71.582,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 6,
+      "start": 73.57,
+      "end": 75.102,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 7,
+      "start": 75.65,
+      "end": 79.422,
+      "text": "Dose solutions in which",
+      "word_count": 4
+    },
+    {
+      "index": 8,
+      "start": 82.594,
+      "end": 82.942,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 9,
+      "start": 83.49,
+      "end": 83.998,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 10,
+      "start": 85.57,
+      "end": 86.43,
+      "text": "Sorry.",
+      "word_count": 1
+    },
+    {
+      "index": 11,
+      "start": 94.69,
+      "end": 95.294,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 12,
+      "start": 95.81,
+      "end": 97.918,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 13,
+      "start": 106.754,
+      "end": 108.03,
+      "text": "Aavaaz aa raha hai school mein.",
+      "word_count": 6
+    },
+    {
+      "index": 14,
+      "start": 111.458,
+      "end": 111.838,
+      "text": "Hello.",
+      "word_count": 1
+    },
+    {
+      "index": 15,
+      "start": 115.778,
+      "end": 116.19,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 16,
+      "start": 119.682,
+      "end": 119.998,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 17,
+      "start": 125.666,
+      "end": 135.87,
+      "text": "Aapne computers mein padha hoga 0 ka 1 ki language jo do dates par dikhi ho, do quantities par dikhi ho, hai na? Vaise hi chemistry mein binary ka matlab kya hoga? Jismen ek solute aur ek sol.",
+      "word_count": 38
+    },
+    {
+      "index": 18,
+      "start": 136.738,
+      "end": 145.342,
+      "text": "Ek se zyaada sorry hua to binary nahin rahta hai. Us case mein uska naam ho jaata hai ternary solution. Kya ho jaata hai ternary solution jo ham padhenge class.",
+      "word_count": 30
+    },
+    {
+      "index": 19,
+      "start": 146.146,
+      "end": 156.478,
+      "text": "Abhi ke lie to kuchh. Ab jitni bhi baat hogi vah beta kiske baare mein hogi? Vah binary ke baare mein hi baat hogi. Yaani p plus a changes to ab.",
+      "word_count": 31
+    },
+    {
+      "index": 20,
+      "start": 158.338,
+      "end": 162.11,
+      "text": "Bol rahe hain vah aapka primary solution ki case nahin hai abhi ke baad.",
+      "word_count": 14
+    },
+    {
+      "index": 21,
+      "start": 163.138,
+      "end": 164.286,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 22,
+      "start": 164.834,
+      "end": 172.35,
+      "text": "Aapne ek solution hai, ek solution hai, ek solution hai, ek solution hai, ek solution hai, ek solution hai, ek solution hai, ek solution hai, ek solution hai, ek solution hai, ek solution hai, ek solution hai, ek solution hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek option hai, ek",
+      "word_count": 200
+    },
+    {
+      "index": 23,
+      "start": 173.474,
+      "end": 174.238,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 24,
+      "start": 175.906,
+      "end": 176.51,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 25,
+      "start": 177.346,
+      "end": 178.686,
+      "text": "Koi baat nahin.",
+      "word_count": 3
+    },
+    {
+      "index": 26,
+      "start": 179.33,
+      "end": 185.182,
+      "text": "Aap to jitne formulae ham padhane vaale hain, to saare formulae bhi tak is par valid honge keval aur keval primary solution.",
+      "word_count": 22
+    },
+    {
+      "index": 27,
+      "start": 186.018,
+      "end": 189.566,
+      "text": "Dekho concentration ko agar main express hoon, to kaun kaun se mehnat hai?",
+      "word_count": 13
+    },
+    {
+      "index": 28,
+      "start": 190.562,
+      "end": 192.734,
+      "text": "Different concentration terms.",
+      "word_count": 3
+    },
+    {
+      "index": 29,
+      "start": 193.826,
+      "end": 194.526,
+      "text": "Yes sir.",
+      "word_count": 2
+    },
+    {
+      "index": 30,
+      "start": 195.202,
+      "end": 197.47,
+      "text": "Concentration koi na aapko kya hai?",
+      "word_count": 6
+    },
+    {
+      "index": 31,
+      "start": 198.274,
+      "end": 199.998,
+      "text": "Kaun se terms aapko karte hain?",
+      "word_count": 6
+    },
+    {
+      "index": 32,
+      "start": 201.026,
+      "end": 201.598,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 33,
+      "start": 206.978,
+      "end": 207.422,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 34,
+      "start": 207.97,
+      "end": 208.382,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 35,
+      "start": 209.186,
+      "end": 212.318,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 36,
+      "start": 213.858,
+      "end": 216.126,
+      "text": "Why students are absent today?",
+      "word_count": 5
+    },
+    {
+      "index": 37,
+      "start": 216.738,
+      "end": 218.91,
+      "text": "Oh, no test.",
+      "word_count": 3
+    },
+    {
+      "index": 38,
+      "start": 222.69,
+      "end": 224.03,
+      "text": "Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao. Batao.",
+      "word_count": 62
+    },
+    {
+      "index": 39,
+      "start": 224.546,
+      "end": 227.55,
+      "text": "1 student is there in the next section. Baat ho raha hoon.",
+      "word_count": 12
+    },
+    {
+      "index": 40,
+      "start": 231.65,
+      "end": 231.998,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 41,
+      "start": 232.738,
+      "end": 233.086,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 42,
+      "start": 233.986,
+      "end": 234.398,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 43,
+      "start": 236.93,
+      "end": 238.526,
+      "text": "Pahla aur sabse sundar.",
+      "word_count": 4
+    },
+    {
+      "index": 44,
+      "start": 239.234,
+      "end": 243.358,
+      "text": "To concentration kam hota hai kya hota hai mass concentration.",
+      "word_count": 10
+    },
+    {
+      "index": 45,
+      "start": 244.066,
+      "end": 245.886,
+      "text": "Mass percentage out.",
+      "word_count": 3
+    },
+    {
+      "index": 46,
+      "start": 246.818,
+      "end": 247.358,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 47,
+      "start": 248.674,
+      "end": 254.59,
+      "text": "Vah weight by weight percent bhi hold kar dijie. Kai kaamon mein se weight by weight percent bhi likha.",
+      "word_count": 19
+    },
+    {
+      "index": 48,
+      "start": 255.618,
+      "end": 256.446,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 49,
+      "start": 256.962,
+      "end": 258.078,
+      "text": "Second most important.",
+      "word_count": 3
+    },
+    {
+      "index": 50,
+      "start": 259.138,
+      "end": 262.398,
+      "text": "Kaun kaun se hai total? Ek hai aapka mass percentage.",
+      "word_count": 10
+    },
+    {
+      "index": 51,
+      "start": 262.946,
+      "end": 267.742,
+      "text": "Sabse zyaada ho rahe hain kuchh jo aapko sunna hai vah hai mohalla ki kya hai?",
+      "word_count": 16
+    },
+    {
+      "index": 52,
+      "start": 268.322,
+      "end": 272.318,
+      "text": "Jaise ham log capital M se represent ho rahe hain.",
+      "word_count": 10
+    },
+    {
+      "index": 53,
+      "start": 273.026,
+      "end": 276.926,
+      "text": "Mein capital M ka matlab alag hota hai, small m ka matlab alag hota hai.",
+      "word_count": 15
+    },
+    {
+      "index": 54,
+      "start": 278.594,
+      "end": 280.638,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 55,
+      "start": 281.346,
+      "end": 282.302,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 56,
+      "start": 283.714,
+      "end": 286.302,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 57,
+      "start": 287.586,
+      "end": 288.638,
+      "text": "Likhana shuroo karie.",
+      "word_count": 3
+    },
+    {
+      "index": 58,
+      "start": 292.674,
+      "end": 293.118,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 59,
+      "start": 298.626,
+      "end": 299.006,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 60,
+      "start": 302.626,
+      "end": 308.83,
+      "text": "Concentration terms, thik hai? To aaj ham inko discuss karne vaale hain kaun kaun se concentration terms ho.",
+      "word_count": 18
+    },
+    {
+      "index": 61,
+      "start": 310.146,
+      "end": 317.662,
+      "text": "Percentage, molarity, molarity yaani small ant. After that ek bada bahut important hai.",
+      "word_count": 13
+    },
+    {
+      "index": 62,
+      "start": 318.178,
+      "end": 320.254,
+      "text": "For more fraction.",
+      "word_count": 3
+    },
+    {
+      "index": 63,
+      "start": 321.154,
+      "end": 324.286,
+      "text": "Ole fraction and it is represented by.",
+      "word_count": 7
+    },
+    {
+      "index": 64,
+      "start": 325.058,
+      "end": 326.942,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 65,
+      "start": 328.034,
+      "end": 329.502,
+      "text": "Ek ka hi se represent kiya tha.",
+      "word_count": 7
+    },
+    {
+      "index": 66,
+      "start": 330.37,
+      "end": 331.294,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 67,
+      "start": 332.354,
+      "end": 334.654,
+      "text": "HIR ka.",
+      "word_count": 2
+    },
+    {
+      "index": 68,
+      "start": 336.994,
+      "end": 337.502,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 69,
+      "start": 342.466,
+      "end": 343.038,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 70,
+      "start": 343.618,
+      "end": 344.542,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 71,
+      "start": 345.314,
+      "end": 349.406,
+      "text": "Kya hai ma'am? Ye kaise likhata hai? Like you make it again.",
+      "word_count": 12
+    },
+    {
+      "index": 72,
+      "start": 351.234,
+      "end": 354.654,
+      "text": "It looks like x but it is not x.",
+      "word_count": 9
+    },
+    {
+      "index": 73,
+      "start": 355.266,
+      "end": 355.87,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 74,
+      "start": 356.674,
+      "end": 362.11,
+      "text": "Aapne suna hoga kai saare gift card par jo Christmas ke gift card aate hain, us par xmas likha hai.",
+      "word_count": 20
+    },
+    {
+      "index": 75,
+      "start": 362.786,
+      "end": 366.686,
+      "text": "Hai kabhi Xmas likha hoon vo? Kabhi socha hai Xmas ko Xmas kyon likhate hain vo?",
+      "word_count": 16
+    },
+    {
+      "index": 76,
+      "start": 367.746,
+      "end": 392.03,
+      "text": "Haan because it is not x vo x hota hi nahin hai. Vo kai hota hai aur greek bhaasha mein ka ka pronunciation jo hai Christmas vaala ka vo isse oopar, isse oopar x use karte hain. Kai vaale. Kai vaale. Christmas vahaan ki spelling aur hamen lagta hai vo excel ho raha hai. To whole fraction ko ham log kai se represent karte hain and twelfth mein jo topic sabse zyaada.",
+      "word_count": 72
+    },
+    {
+      "index": 77,
+      "start": 392.738,
+      "end": 400.446,
+      "text": "Aaega uska vahi yahi mole fraction lagabhag har mahine mein mole fraction aapko dabae ke lie kam se kam kar sakte hain. To achchha hai ki abhi sikhe.",
+      "word_count": 28
+    },
+    {
+      "index": 78,
+      "start": 401.282,
+      "end": 406.622,
+      "text": "Ab uske baad aur kaun kaun se hain mole fraction, molarity, molarity.",
+      "word_count": 12
+    },
+    {
+      "index": 79,
+      "start": 407.234,
+      "end": 410.91,
+      "text": "To beta dekho bahut saare. Main aapko bata doon. Main nahin hai na. Main ek baar bataati hoon.",
+      "word_count": 18
+    },
+    {
+      "index": 80,
+      "start": 411.906,
+      "end": 417.438,
+      "text": "Aapke paas PPM jo aapka PPM isi utpaan hoti hai.",
+      "word_count": 10
+    },
+    {
+      "index": 81,
+      "start": 417.954,
+      "end": 419.454,
+      "text": "Parts aur giriyaan.",
+      "word_count": 3
+    },
+    {
+      "index": 82,
+      "start": 420.61,
+      "end": 425.598,
+      "text": "Parts for million isi tarah ki PPE bhi hota hai. Parts for billion.",
+      "word_count": 13
+    },
+    {
+      "index": 83,
+      "start": 426.338,
+      "end": 428.286,
+      "text": "Parts per million thik hai?",
+      "word_count": 5
+    },
+    {
+      "index": 84,
+      "start": 429.41,
+      "end": 430.462,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 85,
+      "start": 431.01,
+      "end": 435.038,
+      "text": "Modality, modality uske baad ek chiz hoti hai normality.",
+      "word_count": 9
+    },
+    {
+      "index": 86,
+      "start": 436.674,
+      "end": 439.998,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 87,
+      "start": 441.634,
+      "end": 445.726,
+      "text": "Nahin, equality to SST, social study, formal ke lie hoti hai. Haan.",
+      "word_count": 12
+    },
+    {
+      "index": 88,
+      "start": 447.714,
+      "end": 452.318,
+      "text": "Saare towns hain aur bhi hain. Chhah saat aur bhi hain lekin aapko itna nahin padna.",
+      "word_count": 16
+    },
+    {
+      "index": 89,
+      "start": 453.346,
+      "end": 459.486,
+      "text": "Na abhi aaega yah aur na class chhah hazaar mein aaega. Class twelfth ke hisaab se main aapko bataata hoon tin chizen aapka.",
+      "word_count": 23
+    },
+    {
+      "index": 90,
+      "start": 460.098,
+      "end": 465.31,
+      "text": "Tin chizon ka hi focus hota hai. Ek yah polarity, molarity aur motivation.",
+      "word_count": 13
+    },
+    {
+      "index": 91,
+      "start": 466.658,
+      "end": 469.79,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 92,
+      "start": 470.306,
+      "end": 472.318,
+      "text": "Aur levels mein hi focus isi par rahta hai, main na post.",
+      "word_count": 12
+    },
+    {
+      "index": 93,
+      "start": 473.026,
+      "end": 475.262,
+      "text": "NCRD mein hain, inka to koi zikr hi nahin",
+      "word_count": 9
+    },
+    {
+      "index": 94,
+      "start": 476.098,
+      "end": 482.366,
+      "text": "Rah nahin do. Koi sense nahin hai na karne ka. Thik hai? Additionally agar aap padhana chaahen to pahunch sakte hain. Koi dikkat nahin hai. Achchhi baat.",
+      "word_count": 27
+    },
+    {
+      "index": 95,
+      "start": 483.714,
+      "end": 487.998,
+      "text": "Inko nahin karta hai. Main focus kis par rakhata hai unmen in chaar concentration terms par rakhata hai.",
+      "word_count": 18
+    },
+    {
+      "index": 96,
+      "start": 488.738,
+      "end": 493.438,
+      "text": "Mass percent polarity, polarity aur mole fraction. Ek ek karke isko discuss",
+      "word_count": 12
+    },
+    {
+      "index": 97,
+      "start": 494.562,
+      "end": 499.454,
+      "text": "Chaaron concentration term tabhi aaainge hamen samajh mein jab hamen moles nikaale aate",
+      "word_count": 13
+    },
+    {
+      "index": 98,
+      "start": 500.386,
+      "end": 502.43,
+      "text": "Aate hue usse kahaan, sikhaaya main?",
+      "word_count": 6
+    },
+    {
+      "index": 99,
+      "start": 502.978,
+      "end": 508.51,
+      "text": "Mass diya hoga to mool kaise nikaalegi? Keval mass upon moolaboss. Bas itni si baat aani chaahie.",
+      "word_count": 17
+    },
+    {
+      "index": 100,
+      "start": 509.25,
+      "end": 511.038,
+      "text": "Pahle bahut sikhana padega tabhi.",
+      "word_count": 5
+    },
+    {
+      "index": 101,
+      "start": 511.97,
+      "end": 513.022,
+      "text": "Yah hai bahut important.",
+      "word_count": 4
+    },
+    {
+      "index": 102,
+      "start": 513.762,
+      "end": 514.078,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 103,
+      "start": 514.978,
+      "end": 516.67,
+      "text": "Vaise hold kar lo madam, ho gaya hai?",
+      "word_count": 8
+    },
+    {
+      "index": 104,
+      "start": 517.954,
+      "end": 519.934,
+      "text": "Aapka do hazaar rupe hai kisi bhi kar lijie.",
+      "word_count": 9
+    },
+    {
+      "index": 105,
+      "start": 520.77,
+      "end": 523.262,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 106,
+      "start": 525.73,
+      "end": 529.63,
+      "text": "Is not clear. Kya bolte hain? Phir bahut baad mein laga raha hoon. Haan.",
+      "word_count": 14
+    },
+    {
+      "index": 107,
+      "start": 530.338,
+      "end": 533.022,
+      "text": "Lekin vah aapko naam likhane mein kya ja raha hai? Pata to ho gaya yah sab bhi hota hai.",
+      "word_count": 19
+    },
+    {
+      "index": 108,
+      "start": 534.05,
+      "end": 534.686,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 109,
+      "start": 535.362,
+      "end": 537.63,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 110,
+      "start": 539.17,
+      "end": 539.934,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 111,
+      "start": 541.762,
+      "end": 544.446,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 112,
+      "start": 546.754,
+      "end": 548.19,
+      "text": "Aas paas hai, yah kya?",
+      "word_count": 5
+    },
+    {
+      "index": 113,
+      "start": 556.162,
+      "end": 558.622,
+      "text": "PPM ki full form hoti hai parts per billion.",
+      "word_count": 9
+    },
+    {
+      "index": 114,
+      "start": 559.202,
+      "end": 571.006,
+      "text": "PPM ko kahaan use karte hain main aapko bata deti hoon. Jaise maan lo solvent bahut zyaada hai aur uske makaable solute ki quantity bahut hi fresh quantity hai. Bahut kam maatra mein hai. Us case mein ham PPM ka istemaal",
+      "word_count": 41
+    },
+    {
+      "index": 115,
+      "start": 571.618,
+      "end": 575.486,
+      "text": "Jaise ki agar hamen pata karna ho ki air mein pollution level kitna hai?",
+      "word_count": 14
+    },
+    {
+      "index": 116,
+      "start": 576.226,
+      "end": 585.214,
+      "text": "Aaj hava mein kitna percent pollution hai? Kitna PM 2.5 hai? Kitna particulate matter maujood hai? Kitna kaaran monoxide hai? To ham kisse measurement dete hain? PPL.",
+      "word_count": 27
+    },
+    {
+      "index": 117,
+      "start": 586.082,
+      "end": 588.414,
+      "text": "Agar pata karna ho ki yamuna ka jo paani hai.",
+      "word_count": 10
+    },
+    {
+      "index": 118,
+      "start": 589.09,
+      "end": 592.798,
+      "text": "Yamuna ke paani mein kitne percent chloride hain? Kitne percent arsenic hain?",
+      "word_count": 12
+    },
+    {
+      "index": 119,
+      "start": 593.346,
+      "end": 596.158,
+      "text": "Us gandagi ko pata lagaane ke lie ham PPM ka sambandh",
+      "word_count": 11
+    },
+    {
+      "index": 120,
+      "start": 596.93,
+      "end": 603.582,
+      "text": "Kabhi news shupar padho to news shupar mein aise hi aata hai likhoge ki aaj yamuna mein paani ke level mein itna PPF provide paaya",
+      "word_count": 25
+    },
+    {
+      "index": 121,
+      "start": 604.194,
+      "end": 605.022,
+      "text": "Aisa likha aata hai.",
+      "word_count": 4
+    },
+    {
+      "index": 122,
+      "start": 605.73,
+      "end": 606.366,
+      "text": "Karte ho?",
+      "word_count": 2
+    },
+    {
+      "index": 123,
+      "start": 607.33,
+      "end": 610.11,
+      "text": "Isse pata lagta hai ki thik hai. Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai? Thik hai?",
+      "word_count": 73
+    },
+    {
+      "index": 124,
+      "start": 610.69,
+      "end": 617.854,
+      "text": "To PPM ka istemaal laabh hota hai jab solute bahut hi fresh quantity mein present hai aur solvent ke hisaab se kya hota hai? Bahut zyaada.",
+      "word_count": 26
+    },
+    {
+      "index": 125,
+      "start": 618.37,
+      "end": 628.83,
+      "text": "Samudr mein pata karna hai maan lo samudr ka paani hai uska ek sample uthaoge aur aapko usmen pata karna hai ek mug le lo paani, samudr ki paani se, aur aapko pata lagaana hai ki usmen kitna percent kaun sa salt present hai.",
+      "word_count": 44
+    },
+    {
+      "index": 126,
+      "start": 629.634,
+      "end": 637.278,
+      "text": "To solvent kya hai? Vo to anant hai. Koi ant nahin hai solvent mein. To solvent itna zyaada hai aur us case mein solute kya hai? Thoda sa hai vah.",
+      "word_count": 30
+    },
+    {
+      "index": 127,
+      "start": 637.922,
+      "end": 640.478,
+      "text": "Hai na, to vahaan par ham PPM jaisi chizon ka istemaal",
+      "word_count": 11
+    },
+    {
+      "index": 128,
+      "start": 641.186,
+      "end": 648.286,
+      "text": "TPD ka istemaal karen. Yaani ek billion solvent ke case mein kitne parts solved kie honge. Ek minute.",
+      "word_count": 18
+    },
+    {
+      "index": 129,
+      "start": 648.834,
+      "end": 651.806,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 130,
+      "start": 652.482,
+      "end": 653.886,
+      "text": "Bilkul, resolve mein.",
+      "word_count": 3
+    },
+    {
+      "index": 131,
+      "start": 654.786,
+      "end": 657.278,
+      "text": "Chal, to pahle mass percentage dekho, tab kya hota hai?",
+      "word_count": 10
+    },
+    {
+      "index": 132,
+      "start": 659.714,
+      "end": 660.702,
+      "text": "Is equal to?",
+      "word_count": 3
+    },
+    {
+      "index": 133,
+      "start": 661.922,
+      "end": 663.006,
+      "text": "It is equal to,",
+      "word_count": 4
+    },
+    {
+      "index": 134,
+      "start": 664.866,
+      "end": 666.334,
+      "text": "The mass of solute,",
+      "word_count": 4
+    },
+    {
+      "index": 135,
+      "start": 667.778,
+      "end": 668.862,
+      "text": "The mask of,",
+      "word_count": 3
+    },
+    {
+      "index": 136,
+      "start": 669.538,
+      "end": 670.174,
+      "text": "Sorry hoon.",
+      "word_count": 2
+    },
+    {
+      "index": 137,
+      "start": 672.738,
+      "end": 673.63,
+      "text": "Present in.",
+      "word_count": 2
+    },
+    {
+      "index": 138,
+      "start": 677.506,
+      "end": 678.366,
+      "text": "Present in.",
+      "word_count": 2
+    },
+    {
+      "index": 139,
+      "start": 682.978,
+      "end": 685.214,
+      "text": "Hundred parts by hours.",
+      "word_count": 4
+    },
+    {
+      "index": 140,
+      "start": 685.954,
+      "end": 688.254,
+      "text": "Hundred parts by mass.",
+      "word_count": 4
+    },
+    {
+      "index": 141,
+      "start": 692.994,
+      "end": 693.502,
+      "text": "nan, can you please tell me how to do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this? How do you do this?",
+      "word_count": 215
+    },
+    {
+      "index": 142,
+      "start": 701.73,
+      "end": 702.782,
+      "text": "Formula likh rahi hoon main dekho.",
+      "word_count": 6
+    },
+    {
+      "index": 143,
+      "start": 703.458,
+      "end": 708.446,
+      "text": "Dekho formula se aa jaega samay. Agar ham mass percent ko define kar lijie uska formula.",
+      "word_count": 16
+    },
+    {
+      "index": 144,
+      "start": 709.122,
+      "end": 709.95,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 145,
+      "start": 711.394,
+      "end": 714.078,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 146,
+      "start": 714.594,
+      "end": 715.806,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 147,
+      "start": 718.626,
+      "end": 719.902,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 148,
+      "start": 721.058,
+      "end": 721.47,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 149,
+      "start": 722.466,
+      "end": 722.878,
+      "text": "nan, kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin. Kuchh nahin.",
+      "word_count": 101
+    },
+    {
+      "index": 150,
+      "start": 726.274,
+      "end": 726.942,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 151,
+      "start": 729.57,
+      "end": 730.142,
+      "text": "nan, can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you? Can you?",
+      "word_count": 159
+    },
+    {
+      "index": 152,
+      "start": 731.426,
+      "end": 734.782,
+      "text": "Percent nikaal rahe hain. To percent ka matlab kya hoga? Hundred se?",
+      "word_count": 12
+    },
+    {
+      "index": 153,
+      "start": 735.33,
+      "end": 735.902,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 154,
+      "start": 739.01,
+      "end": 747.134,
+      "text": "Mass percent simple yah bataata hai ki aapne solute ka kitna mass? Das gram, bis gram, das percent, tis percent, tis percent.",
+      "word_count": 22
+    },
+    {
+      "index": 155,
+      "start": 748.226,
+      "end": 754.334,
+      "text": "Yaani hundred gram solution mein total poore milon aapne kitna jo hai maas solut kar liya.",
+      "word_count": 16
+    },
+    {
+      "index": 156,
+      "start": 754.85,
+      "end": 757.182,
+      "text": "Das percent dikhaaya hai, uska matlab kya hua? 10.",
+      "word_count": 9
+    },
+    {
+      "index": 157,
+      "start": 757.89,
+      "end": 760.446,
+      "text": "Percent likha hai aapka? 20 percent. Aise.",
+      "word_count": 7
+    },
+    {
+      "index": 158,
+      "start": 761.186,
+      "end": 762.718,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 159,
+      "start": 764.002,
+      "end": 765.374,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 160,
+      "start": 765.986,
+      "end": 766.366,
+      "text": "Hello.",
+      "word_count": 1
+    },
+    {
+      "index": 161,
+      "start": 769.026,
+      "end": 771.006,
+      "text": "Solution is prepared by?",
+      "word_count": 4
+    },
+    {
+      "index": 162,
+      "start": 772.45,
+      "end": 773.31,
+      "text": "Likho.",
+      "word_count": 1
+    },
+    {
+      "index": 163,
+      "start": 773.922,
+      "end": 776.222,
+      "text": "A solution is prepared by,",
+      "word_count": 5
+    },
+    {
+      "index": 164,
+      "start": 778.37,
+      "end": 778.974,
+      "text": "Adding.",
+      "word_count": 1
+    },
+    {
+      "index": 165,
+      "start": 784.898,
+      "end": 787.038,
+      "text": "Of a substance A. No problem.",
+      "word_count": 6
+    },
+    {
+      "index": 166,
+      "start": 797.922,
+      "end": 799.134,
+      "text": "18 gram of water.",
+      "word_count": 4
+    },
+    {
+      "index": 167,
+      "start": 803.586,
+      "end": 804.158,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 168,
+      "start": 804.706,
+      "end": 805.118,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 169,
+      "start": 806.178,
+      "end": 807.87,
+      "text": "Ka naam nahin hai usse ek ho raha hai.",
+      "word_count": 9
+    },
+    {
+      "index": 170,
+      "start": 808.418,
+      "end": 809.726,
+      "text": "Yah naam ka ek solute bataaya.",
+      "word_count": 6
+    },
+    {
+      "index": 171,
+      "start": 810.498,
+      "end": 812.606,
+      "text": "Aur stock calculate the mass percent.",
+      "word_count": 6
+    },
+    {
+      "index": 172,
+      "start": 814.402,
+      "end": 815.07,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 173,
+      "start": 818.178,
+      "end": 819.134,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 174,
+      "start": 821.826,
+      "end": 822.206,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 175,
+      "start": 823.842,
+      "end": 826.206,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 176,
+      "start": 827.298,
+      "end": 828.926,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 177,
+      "start": 830.626,
+      "end": 831.39,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 178,
+      "start": 832.13,
+      "end": 836.638,
+      "text": "Yahaan par yah main confusion hoon na ki yahaan par hai kyon main? Hamne to formula bhi padhaaya tha.",
+      "word_count": 19
+    },
+    {
+      "index": 179,
+      "start": 837.25,
+      "end": 839.902,
+      "text": "Yahaan main mention kar raha tha ki usmen follow up ek hi.",
+      "word_count": 12
+    },
+    {
+      "index": 180,
+      "start": 840.61,
+      "end": 841.246,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 181,
+      "start": 842.818,
+      "end": 846.206,
+      "text": "Otherwise ham har jagah jitne complex karenge vahaan bhi hi maante hain.",
+      "word_count": 12
+    },
+    {
+      "index": 182,
+      "start": 848.13,
+      "end": 848.638,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 183,
+      "start": 849.314,
+      "end": 850.494,
+      "text": "Beta kaise nikaaloge?",
+      "word_count": 3
+    },
+    {
+      "index": 184,
+      "start": 851.17,
+      "end": 853.406,
+      "text": "Formula aai soluta mass kitna hai?",
+      "word_count": 6
+    },
+    {
+      "index": 185,
+      "start": 860.098,
+      "end": 862.654,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 186,
+      "start": 863.65,
+      "end": 864.606,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 187,
+      "start": 865.57,
+      "end": 867.39,
+      "text": "Ma'am, can you please?",
+      "word_count": 4
+    },
+    {
+      "index": 188,
+      "start": 869.09,
+      "end": 869.598,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 189,
+      "start": 878.306,
+      "end": 878.846,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 190,
+      "start": 879.49,
+      "end": 880.894,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 191,
+      "start": 883.01,
+      "end": 884.926,
+      "text": "Aap log ek aur question likh sakte hain iska?",
+      "word_count": 9
+    },
+    {
+      "index": 192,
+      "start": 886.178,
+      "end": 886.942,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 193,
+      "start": 887.938,
+      "end": 889.022,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 194,
+      "start": 889.954,
+      "end": 890.814,
+      "text": "Sir number.",
+      "word_count": 2
+    },
+    {
+      "index": 195,
+      "start": 906.626,
+      "end": 907.038,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 196,
+      "start": 907.714,
+      "end": 908.03,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 197,
+      "start": 924.226,
+      "end": 924.638,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 198,
+      "start": 926.594,
+      "end": 926.91,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 199,
+      "start": 927.522,
+      "end": 927.998,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 200,
+      "start": 930.178,
+      "end": 930.718,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 201,
+      "start": 939.746,
+      "end": 940.606,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 202,
+      "start": 948.386,
+      "end": 948.702,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 203,
+      "start": 954.594,
+      "end": 955.038,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 204,
+      "start": 961.538,
+      "end": 962.686,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 205,
+      "start": 967.106,
+      "end": 968.734,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 206,
+      "start": 970.114,
+      "end": 976.542,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 207,
+      "start": 978.082,
+      "end": 978.526,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 208,
+      "start": 993.89,
+      "end": 994.302,
+      "text": "Hello. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo. Chalo.",
+      "word_count": 92
+    },
+    {
+      "index": 209,
+      "start": 997.122,
+      "end": 997.822,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 210,
+      "start": 998.498,
+      "end": 999.934,
+      "text": "Very easy simple hai vah.",
+      "word_count": 5
+    },
+    {
+      "index": 211,
+      "start": 1003.97,
+      "end": 1007.71,
+      "text": "H 2 S 4 hai to H 2 S 4 ke lie mask book karna padega.",
+      "word_count": 16
+    },
+    {
+      "index": 212,
+      "start": 1008.482,
+      "end": 1009.086,
+      "text": "Zaroorat nahin.",
+      "word_count": 2
+    },
+    {
+      "index": 213,
+      "start": 1009.954,
+      "end": 1012.83,
+      "text": "Molarity mulfection ke time par hi sir.",
+      "word_count": 7
+    },
+    {
+      "index": 214,
+      "start": 1017.218,
+      "end": 1018.59,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 215,
+      "start": 1019.138,
+      "end": 1021.086,
+      "text": "Sabko plus kar do sabke individual",
+      "word_count": 6
+    },
+    {
+      "index": 216,
+      "start": 1022.05,
+      "end": 1024.254,
+      "text": "Masker aapka vah hydrogen gavaan hota hai.",
+      "word_count": 7
+    },
+    {
+      "index": 217,
+      "start": 1024.866,
+      "end": 1028.062,
+      "text": "Hai na? Carbon ka 12 hai, oxygen 16 hai.",
+      "word_count": 9
+    },
+    {
+      "index": 218,
+      "start": 1028.962,
+      "end": 1033.31,
+      "text": "To tense mein kara hota hai yaar. Achchha aisa to nahin hota ki na kiya hota hai na kiya hai. Bas.",
+      "word_count": 21
+    },
+    {
+      "index": 219,
+      "start": 1034.658,
+      "end": 1047.39,
+      "text": "Dekho do tin baaten aisi hai jo badi basic hai. Jo aapko pata hi nahin jaengi chemistry mein vo aapko pahle se pata ho chali. For example ek to hi atomic number ek se bis tak. Bis ke aap to tis tak karo kaam aaega.",
+      "word_count": 45
+    },
+    {
+      "index": 220,
+      "start": 1048.098,
+      "end": 1050.75,
+      "text": "21 se 30 tak bhi karaaya tha mujhe mainne ek din.",
+      "word_count": 11
+    },
+    {
+      "index": 221,
+      "start": 1051.65,
+      "end": 1053.598,
+      "text": "Se tisra ek to atomic number aane chaahie.",
+      "word_count": 8
+    },
+    {
+      "index": 222,
+      "start": 1054.434,
+      "end": 1055.774,
+      "text": "Jo badi common baat hai,",
+      "word_count": 5
+    },
+    {
+      "index": 223,
+      "start": 1056.61,
+      "end": 1057.502,
+      "text": "Vah hai balance.",
+      "word_count": 3
+    },
+    {
+      "index": 224,
+      "start": 1058.562,
+      "end": 1061.15,
+      "text": "SO 4 ke oopar 2 minus hai. Yah aap batao mujhe.",
+      "word_count": 11
+    },
+    {
+      "index": 225,
+      "start": 1061.73,
+      "end": 1063.742,
+      "text": "Nightly ke minus mainne yah pata hona chaahie.",
+      "word_count": 8
+    },
+    {
+      "index": 226,
+      "start": 1064.738,
+      "end": 1068.798,
+      "text": "Oxygen ki valency kya hai? Sodum ki valency kya hai? Valency ya.",
+      "word_count": 12
+    },
+    {
+      "index": 227,
+      "start": 1070.306,
+      "end": 1074.366,
+      "text": "Din vah baaten hain ki har chapter mein aapko istemaal karne padega aur alag se convenient mein.",
+      "word_count": 17
+    },
+    {
+      "index": 228,
+      "start": 1075.522,
+      "end": 1079.102,
+      "text": "Aata hai ki bachcha tenth karke aa raha hai to itna to padhakar aa rahe hain. Ok.",
+      "word_count": 17
+    },
+    {
+      "index": 229,
+      "start": 1079.618,
+      "end": 1080.126,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 230,
+      "start": 1080.834,
+      "end": 1081.694,
+      "text": "Vah too negative.",
+      "word_count": 3
+    },
+    {
+      "index": 231,
+      "start": 1083.106,
+      "end": 1083.742,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 232,
+      "start": 1086.082,
+      "end": 1086.75,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 233,
+      "start": 1088.162,
+      "end": 1094.974,
+      "text": "Because Valence Shell mein electron kitne hota hai? 6. 6. To chhah electron hai matlab do aur chaahie usko update poora karne ke lie to do gain karega.",
+      "word_count": 28
+    },
+    {
+      "index": 234,
+      "start": 1095.874,
+      "end": 1096.446,
+      "text": "nan, thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai. Thik hai.",
+      "word_count": 141
+    },
+    {
+      "index": 235,
+      "start": 1097.698,
+      "end": 1101.534,
+      "text": "Bhi aap try ki main ek currency ka aapko ek ya to bhej do group par ya main yahi.",
+      "word_count": 19
+    },
+    {
+      "index": 236,
+      "start": 1102.37,
+      "end": 1103.55,
+      "text": "Problem ho gaya.",
+      "word_count": 3
+    },
+    {
+      "index": 237,
+      "start": 1105.986,
+      "end": 1106.814,
+      "text": "nan, kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? Kya? K",
+      "word_count": 149
+    },
+    {
+      "index": 238,
+      "start": 1107.458,
+      "end": 1108.094,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 239,
+      "start": 1111.906,
+      "end": 1113.854,
+      "text": "Utaara tabhi to 2 comma 6 hua.",
+      "word_count": 7
+    },
+    {
+      "index": 240,
+      "start": 1114.402,
+      "end": 1115.102,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 241,
+      "start": 1116.162,
+      "end": 1119.134,
+      "text": "Comma 6 hua haan bataie.",
+      "word_count": 5
+    },
+    {
+      "index": 242,
+      "start": 1120.482,
+      "end": 1120.83,
+      "text": "Correct.",
+      "word_count": 1
+    },
+    {
+      "index": 243,
+      "start": 1121.442,
+      "end": 1124.926,
+      "text": "Much kitna aa raha hai?",
+      "word_count": 5
+    },
+    {
+      "index": 244,
+      "start": 1126.146,
+      "end": 1127.134,
+      "text": "15.",
+      "word_count": 1
+    },
+    {
+      "index": 245,
+      "start": 1128.866,
+      "end": 1129.758,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 246,
+      "start": 1130.818,
+      "end": 1134.686,
+      "text": "Sahi aa raha hai. Shall I do it here ya kar loge?",
+      "word_count": 12
+    },
+    {
+      "index": 247,
+      "start": 1135.298,
+      "end": 1136.126,
+      "text": "Aasaan hai yah to?",
+      "word_count": 4
+    },
+    {
+      "index": 248,
+      "start": 1143.842,
+      "end": 1145.182,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 249,
+      "start": 1146.594,
+      "end": 1147.166,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 250,
+      "start": 1150.306,
+      "end": 1150.75,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 251,
+      "start": 1151.394,
+      "end": 1151.71,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 252,
+      "start": 1156.834,
+      "end": 1157.278,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 253,
+      "start": 1157.826,
+      "end": 1160.67,
+      "text": "Aap aksar sunoge ki standard solution bana.",
+      "word_count": 7
+    },
+    {
+      "index": 254,
+      "start": 1161.442,
+      "end": 1166.59,
+      "text": "Se examiner jo aaega vo bhi aapse yahi bolega ki aapne titration kiya to standard solution kiska batae?",
+      "word_count": 18
+    },
+    {
+      "index": 255,
+      "start": 1167.138,
+      "end": 1169.374,
+      "text": "Baar baar bolega standard solution, standard solution.",
+      "word_count": 7
+    },
+    {
+      "index": 256,
+      "start": 1169.89,
+      "end": 1173.79,
+      "text": "Strength kya hai? Aapke jo buret mein aapne bhara hai, uski strength kya?",
+      "word_count": 13
+    },
+    {
+      "index": 257,
+      "start": 1174.306,
+      "end": 1175.326,
+      "text": "Uski molarity kya?",
+      "word_count": 3
+    },
+    {
+      "index": 258,
+      "start": 1175.938,
+      "end": 1185.502,
+      "text": "Yah strength, molarity aur standard solution ka matlab kya hai? Matlab yah hai ki ham lab mein jo jo chemical ko rakhate hain store karke, vo saare chemical apne standard form mein.",
+      "word_count": 32
+    },
+    {
+      "index": 259,
+      "start": 1186.114,
+      "end": 1186.878,
+      "text": "Iska matlab?",
+      "word_count": 2
+    },
+    {
+      "index": 260,
+      "start": 1187.49,
+      "end": 1189.374,
+      "text": "Iska matlab unki molarity fix ho.",
+      "word_count": 6
+    },
+    {
+      "index": 261,
+      "start": 1190.114,
+      "end": 1192.062,
+      "text": "1 mool, 2 moolar, 3 moolar.",
+      "word_count": 6
+    },
+    {
+      "index": 262,
+      "start": 1193.122,
+      "end": 1197.118,
+      "text": "Aisa nahin hai ki kahin se bhi laakar kitne bhi jitna banaaya bhar diya aur rakh diya laayak.",
+      "word_count": 18
+    },
+    {
+      "index": 263,
+      "start": 1198.498,
+      "end": 1199.23,
+      "text": "Snot kitchen.",
+      "word_count": 2
+    },
+    {
+      "index": 264,
+      "start": 1199.874,
+      "end": 1205.918,
+      "text": "Lab mein har ek bottle mein vo chizen bhar ke rakhi hui hai, store karke. Vo sab apne standard solution ki form mein rakhi hai.",
+      "word_count": 25
+    },
+    {
+      "index": 265,
+      "start": 1206.498,
+      "end": 1209.598,
+      "text": "Inki molarity fix hai. Yah do molaara ya tin molaara chaar.",
+      "word_count": 11
+    },
+    {
+      "index": 266,
+      "start": 1211.234,
+      "end": 1211.742,
+      "text": "Ma'am.",
+      "word_count": 1
+    },
+    {
+      "index": 267,
+      "start": 1213.026,
+      "end": 1214.462,
+      "text": "Is bula rahe hain? Dekho ismen.",
+      "word_count": 6
+    },
+    {
+      "index": 268,
+      "start": 1215.266,
+      "end": 1217.342,
+      "text": "Molarity is defined as.",
+      "word_count": 4
+    },
+    {
+      "index": 269,
+      "start": 1219.522,
+      "end": 1220.222,
+      "text": "Molarity.",
+      "word_count": 1
+    },
+    {
+      "index": 270,
+      "start": 1221.41,
+      "end": 1222.558,
+      "text": "Is defined as,",
+      "word_count": 3
+    },
+    {
+      "index": 271,
+      "start": 1225.346,
+      "end": 1227.582,
+      "text": "Number of moles of solute.",
+      "word_count": 5
+    },
+    {
+      "index": 272,
+      "start": 1230.914,
+      "end": 1231.87,
+      "text": "Number off.",
+      "word_count": 2
+    },
+    {
+      "index": 273,
+      "start": 1234.466,
+      "end": 1235.838,
+      "text": "Moles of solute.",
+      "word_count": 3
+    },
+    {
+      "index": 274,
+      "start": 1237.89,
+      "end": 1238.43,
+      "text": "Moods.",
+      "word_count": 1
+    },
+    {
+      "index": 275,
+      "start": 1239.394,
+      "end": 1241.95,
+      "text": "Moles of solute present in.",
+      "word_count": 5
+    },
+    {
+      "index": 276,
+      "start": 1243.554,
+      "end": 1244.574,
+      "text": "Present in.",
+      "word_count": 2
+    },
+    {
+      "index": 277,
+      "start": 1246.978,
+      "end": 1248.414,
+      "text": "1 liter of solution.",
+      "word_count": 4
+    },
+    {
+      "index": 278,
+      "start": 1249.954,
+      "end": 1250.814,
+      "text": "Presenting.",
+      "word_count": 1
+    },
+    {
+      "index": 279,
+      "start": 1251.842,
+      "end": 1253.598,
+      "text": "1 liter of solution.",
+      "word_count": 4
+    },
+    {
+      "index": 280,
+      "start": 1255.97,
+      "end": 1261.886,
+      "text": "Yaani ek litar solution mein aapne solute ke kitne moles add kare hain vo uski molarity bata.",
+      "word_count": 17
+    },
+    {
+      "index": 281,
+      "start": 1262.626,
+      "end": 1262.942,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 282,
+      "start": 1263.746,
+      "end": 1265.31,
+      "text": "Aap doosra point likho.",
+      "word_count": 4
+    },
+    {
+      "index": 283,
+      "start": 1269.762,
+      "end": 1271.55,
+      "text": "Temperature dependent quantity.",
+      "word_count": 3
+    },
+    {
+      "index": 284,
+      "start": 1272.642,
+      "end": 1273.278,
+      "text": "It is on.",
+      "word_count": 3
+    },
+    {
+      "index": 285,
+      "start": 1274.306,
+      "end": 1276.574,
+      "text": "Temperature dependent quantity.",
+      "word_count": 3
+    },
+    {
+      "index": 286,
+      "start": 1279.842,
+      "end": 1281.854,
+      "text": "Which changes on?",
+      "word_count": 3
+    },
+    {
+      "index": 287,
+      "start": 1283.33,
+      "end": 1283.902,
+      "text": "Which?",
+      "word_count": 1
+    },
+    {
+      "index": 288,
+      "start": 1284.866,
+      "end": 1285.918,
+      "text": "Change hoon.",
+      "word_count": 2
+    },
+    {
+      "index": 289,
+      "start": 1298.626,
+      "end": 1300.382,
+      "text": "Temperature of the surroundiging.",
+      "word_count": 4
+    },
+    {
+      "index": 290,
+      "start": 1301.634,
+      "end": 1303.294,
+      "text": "Changing the temperature.",
+      "word_count": 3
+    },
+    {
+      "index": 291,
+      "start": 1304.066,
+      "end": 1305.662,
+      "text": "Of the surround.",
+      "word_count": 3
+    },
+    {
+      "index": 292,
+      "start": 1306.658,
+      "end": 1307.358,
+      "text": "Full stop.",
+      "word_count": 2
+    },
+    {
+      "index": 293,
+      "start": 1311.202,
+      "end": 1311.678,
+      "text": "nan",
+      "word_count": 1
+    },
+    {
+      "index": 294,
+      "start": 1312.354,
+      "end": 1313.182,
+      "text": "Class ho gai hai?",
+      "word_count": 4
+    },
+    {
+      "index": 295,
+      "start": 1314.21,
+      "end": 1315.134,
+      "text": "Bell ho gai hai I think.",
+      "word_count": 6
+    },
+    {
+      "index": 296,
+      "start": 1316.802,
+      "end": 1318.078,
+      "text": "Hamaara ek aur period hai.",
+      "word_count": 5
+    },
+    {
+      "index": 297,
+      "start": 1319.778,
+      "end": 1322.174,
+      "text": "Hi period hai. B section mein I think do hai aaj.",
+      "word_count": 11
+    },
+    {
+      "index": 298,
+      "start": 1323.042,
+      "end": 1323.806,
+      "text": "nan, bhi nahin.",
+      "word_count": 3
+    },
+    {
+      "index": 299,
+      "start": 1324.546,
+      "end": 1327.166,
+      "text": "Hai aaj ke din saare? 12 mein aaya hai suppose, haan?",
+      "word_count": 11
+    },
+    {
+      "index": 300,
+      "start": 1328.77,
+      "end": 1333.726,
+      "text": "Achchha, thik hai. We will continue dekhati hoon na koi period agar free milta hai ya arrangement hota hai to I will come.",
+      "word_count": 23
+    },
+    {
+      "index": 301,
+      "start": 1335.586,
+      "end": 1338.11,
+      "text": "Till then good luck for your unit test. I will end.",
+      "word_count": 11
+    },
+    {
+      "index": 302,
+      "start": 1340.802,
+      "end": 1343.422,
+      "text": "Lock book, lock book to fill karo. Where is the lock book?",
+      "word_count": 12
+    }
+  ]
+}
